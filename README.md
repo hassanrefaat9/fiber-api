@@ -102,18 +102,19 @@ The following endpoints are available for interacting with the Product API:
 - **Response:** Returns a JSON object representing the created product.
 ```json
 {
-    "data": {
-        "ID": 2,
-        "CreatedAt": "2023-06-23T11:48:16.365950748+03:00",
-        "UpdatedAt": "2023-06-23T11:48:16.365950748+03:00",
-        "DeletedAt": null,
-        "Title": "Sample Product2",
-        "description": "This is a sample product description.2",
-        "amount": 10
-    },
-    "message": "Created product",
-    "status": "success"
+  "data": {
+    "ID": 2,
+    "CreatedAt": "2023-06-23T11:48:16.365950748+03:00",
+    "UpdatedAt": "2023-06-23T11:48:16.365950748+03:00",
+    "DeletedAt": null,
+    "Title": "Sample Product2",
+    "description": "This is a sample product description.2",
+    "amount": 10
+  },
+  "message": "Created product",
+  "status": "success"
 }
+
 ```
 
 ### Delete a product
@@ -126,9 +127,9 @@ The following endpoints are available for interacting with the Product API:
 - **Response:** Returns a success message indicating the deletion of the product.
 ```json
 {
-    "data": null,
-    "message": "Product successfully deleted",
-    "status": "success"
+  "data": null,
+  "message": "Product successfully deleted",
+  "status": "success"
 }
 ```
 
